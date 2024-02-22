@@ -1,0 +1,25 @@
+header{
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+img{
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+nav{
+    background-color: var(--cor2);
+    height: 50px;
+}
+
+nav > a{
+    padding: 10px;
+}
+
+nav > a:hover{
+    background-color: var(--cor4);
+}
+
+
