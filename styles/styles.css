@@ -22,4 +22,8 @@ nav > a:hover{
     background-color: var(--cor4);
 }
 
-
+footer>p>a:hover{
+    text-decoration: 4px underline #8205FF;
+    font-weight: bolder;
+    color: #3005FF;
+}
