@@ -1,23 +1,43 @@
 header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-color: var(--cor1);
     text-align: center;
 }
 
-header > img{
+.img-topo>img{
     height: 100px;
     border-radius: 8px;
     margin-top: 10px;
+    margin-left: 150px;
+}
+header>h1{
+    margin-right: 300px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav{
     background-color: var(--cor2);
     height: 50px;
+    width: 1218px;
     padding: 10px;
+   
 }
 
 nav > a{
     padding: 10px;
     border-radius: 8px;
+    margin: 5px;
 }
 
 nav > a:hover{
@@ -42,3 +62,4 @@ footer>p>a:hover{
     font-weight: bolder;
     color: var(--cor2)
 }
+
